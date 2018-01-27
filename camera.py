@@ -3,8 +3,7 @@ from time import sleep
 import subprocess
 
 camera = PiCamera()
-camera.start_preview()
+# camera.start_preview()
 sleep(5)
 camera.capture('picture.jpg')
-camera.stop_preview()
-subprocess.call("mkdir willthiswork", shell=True)
+# camera.stop_preview()
