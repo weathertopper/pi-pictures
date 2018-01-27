@@ -4,5 +4,5 @@ from time import sleep
 camera = PiCamera()
 camera.start_preview()
 sleep(5)
-camera.capture('picture.jpg')
+camera.capture('~/temp-pics/picture.jpg')
 camera.stop_preview()
